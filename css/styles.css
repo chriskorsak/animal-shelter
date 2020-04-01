@@ -1,7 +1,11 @@
-.column {
+/*.column {
     width: 300px;
     float: left;
-  }
+  } */
+
+body {
+  background-color: tan;
+}
 
 .column img {
   border: 2px solid black;
@@ -11,3 +15,23 @@
     color: darkblue;
     text-align: center;
 }
+
+@media screen and (min-width: 480px) {
+  .column {
+    width: 300px;
+    float: left;
+      }
+  }
+
+@media screen and (min-width: 550px) and (max-width: 700px) {
+      body {
+          background-color: yellow;
+      }
+  }
+
+@media print {
+    body {
+        background-color: red;
+    }
+}
+  
