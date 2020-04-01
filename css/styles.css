@@ -1,0 +1,13 @@
+.column {
+    width: 300px;
+    float: left;
+  }
+
+.column img {
+  border: 2px solid black;
+}
+
+.column h2 {
+    color: darkblue;
+    text-align: center;
+}
