@@ -1,37 +1,19 @@
-/*.column {
-    width: 300px;
-    float: left;
-  } */
-
-body {
-  background-color: tan;
+.jumbotron {
+  text-align: center;
+  background-color: #dbc6b0;
+  border-radius: 0 !important;
 }
 
-.column img {
+body {
+  background-color: white;
+}
+
+img {
   border: 2px solid black;
 }
 
 .column h2 {
     color: darkblue;
     text-align: center;
-}
-
-@media screen and (min-width: 480px) {
-  .column {
-    width: 300px;
-    float: left;
-      }
-  }
-
-@media screen and (min-width: 550px) and (max-width: 700px) {
-      body {
-          background-color: yellow;
-      }
-  }
-
-@media print {
-    body {
-        background-color: red;
-    }
 }
   
