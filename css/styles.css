@@ -23,4 +23,8 @@ img {
     color: darkblue;
     text-align: center;
 }
+
+#hide-photo {
+  display: none;
+}
   
